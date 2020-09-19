@@ -1,5 +1,5 @@
 // Connect to socket server
-const socket = io.connect("http://localhost:3000/") ;
+const socket = io.connect("http://wbboard.herokuapp.com/") ;
 
 const board = document.querySelector(".board") ;
 board.height = window.innerHeight ;
