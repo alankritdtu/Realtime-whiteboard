@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pep-DEV101/PepBoard.git"
+    "url": "git+https://github.com/alankritdtu/realtime-whiteboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pep-DEV101/PepBoard/issues"
+    "url": "https://github.com/alankritdtu/realtime-whiteboard/issues"
   },
-  "homepage": "https://github.com/Pep-DEV101/PepBoard#readme"
+  "homepage": "https://github.com/alankritdtu/realtime-whiteboard#readme"
 }
