@@ -13,9 +13,6 @@ app.use(express.static("public"));
 
 
 
-
-
-
 // server
 io.on("connection", function(socket) {
   console.log(socket.id);
@@ -47,10 +44,7 @@ io.on("connection", function(socket) {
   });
 });
 // nodejs server
-const port = process.env.PORT || 3000;
 
-
-
-server.listen(port, function(req, res) {
+server.listen(process.env.PORT || 3000, function(req, res) {
   console.log("Server has started at port 3000");
 });
